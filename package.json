@@ -1,0 +1,29 @@
+{
+  "name": "cybel",
+  "version": "0.0.1",
+  "description": "Cybel bot",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJBK/Cybel.git"
+  },
+  "scripts": {
+    "dev": "nodemon ./index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TJBK",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0",
+    "mongodb": "^3.2.7"
+  }
+}
